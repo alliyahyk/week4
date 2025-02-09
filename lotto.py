@@ -1,3 +1,4 @@
+import random
 # Exercise 3: lotto.py
 # lotto is a variable which is using random module that has been imported
 # .sample() is a method that returns a list with random numbers in the range set between 1 and 50
