@@ -9,6 +9,8 @@ print(type(reading_file))
 # Slurping as a list using .readlines() method to use multiple lines/strings as a list
 pelican_list = open('pelican.txt', 'r').readlines()
 print(f'This is the pelican file as a list:\n{pelican_list}')
+# printing the number of outputs
+print(len(pelican_list))
 
 # for loop opening file
 for line in open('pelican.txt', 'r'):
