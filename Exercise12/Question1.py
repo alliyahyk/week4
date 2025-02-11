@@ -21,7 +21,10 @@ cheese += ['Oke']
 
 #   How would you add two new cheese to the list with a single command?
 
+cheese.append('Camembert')
+# one object
 cheese.extend(['Camembert', 'Parmesan'])
+# iterable
 print(cheese)
 
 #   or

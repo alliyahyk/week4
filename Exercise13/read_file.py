@@ -33,3 +33,4 @@ for line in open('pelican.txt', 'r'):
     print(line.strip())
 
 # .strip() removes the trailing \n from each file when printing. Ensures no blank spaces in the output.
+# can slice up to -1

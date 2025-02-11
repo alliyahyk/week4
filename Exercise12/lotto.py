@@ -15,6 +15,7 @@ import random
 
 # random.shuffle(sequence)  Shuffles the elements of a sequence.
 
+# set()
 
 #   Example 1: using FOR LOOP
 lottery_numbers = []
@@ -63,3 +64,17 @@ while len(lottery_numbers) != 6:
 print(f"Your lottery numbers are:{lottery_numbers}\nGood luck!")
 
 # len(...) =! 6  sets list to 6 numbers.
+
+#   lOTTO SET
+
+lotto_set = set()
+
+while len(lotto_set) < 6:
+    lotto_set.add(random.randint(1,50))
+
+print(lotto_set)
+
+# reorder in ascending order
+
+sorted_lotto_set = sorted(lotto_set)
+print(sorted_lotto_set)

@@ -1,10 +1,10 @@
 #   1) Create a file handle to open and append to a file called pelican.txt
-file_handle = open('pelican.txt', 'a')
+file_handle = open('pelican.txt', 'w')
 
 # open(file name, mode)         Function opens a file and returns the file object (file handle) via two arguments (file name, mode)
 #                               Modes:
 #                                 'r': read; allows reading
-#                                 'w': write; overwrites the file
+#                                 'w': write; overwrites the file, will not repeat commands.
 #                                 'a': append; data is written to the end of the file, if file ≠ exist, it is created.
 
 # , comma is part of Python syntax to separate parameters in function calls.
