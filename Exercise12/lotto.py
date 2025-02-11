@@ -65,7 +65,7 @@ print(f"Your lottery numbers are:{lottery_numbers}\nGood luck!")
 
 # len(...) =! 6  sets list to 6 numbers.
 
-#   lOTTO SET
+#   *Example 6: Improvement by including a SET to prevent duplicates.
 
 lotto_set = set()
 
@@ -74,7 +74,7 @@ while len(lotto_set) < 6:
 
 print(lotto_set)
 
-# reorder in ascending order
+# Reorder in ascending order
 
 sorted_lotto_set = sorted(lotto_set)
 print(sorted_lotto_set)
